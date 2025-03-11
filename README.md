@@ -6,7 +6,11 @@ NetSniffer is a powerful network monitoring tool designed to provide real-time d
 
 Features
 
-🔹 Multi-threaded Scanning: Efficiently scans your network with dedicated threads for each IP address.🔹 Data Tracking: Each IP has its own .txt file logging the data being sent, allowing for detailed packet analysis.🔹 Connection Status Monitoring: Tracks device connectivity, session duration, and records uptime in real-time.🔹 Port Scanning: Performs targeted port scans on each IP, with results stored in individual log files.🔹 Stealth & Efficiency: Designed with performance and evasion techniques in mind for red team engagements.
+🔹 Multi-threaded Scanning: Efficiently scans your network with dedicated threads for each IP address.
+🔹 Data Tracking: Each IP has its own .txt file logging the data being sent, allowing for detailed packet analysis.
+🔹 Connection Status Monitoring: Tracks device connectivity, session duration, and records uptime in real-time.
+🔹 Port Scanning: Performs targeted port scans on each IP, with results stored in individual log files.
+🔹 Stealth & Efficiency: Designed with performance and evasion techniques in mind for red team engagements.
 
 How It Works
 
