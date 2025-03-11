@@ -21,3 +21,8 @@ Data Logging: Each identified IP gets a dedicated log file that tracks its data 
 Session Tracking: A separate thread pings each IP to record its connection status and session duration.
 
 Port Analysis: Another thread performs a comprehensive port scan and saves the results in individual text files.
+
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
