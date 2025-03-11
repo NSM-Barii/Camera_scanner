@@ -78,10 +78,9 @@ class Utilities():
         
         # URL
         url = f"https://api.macvendors.com/{mac}"
-
-        headers = {
-            "bearer": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImp0aSI6IjNlM2JiMTMzLWVmODItNGU1MC1iNDczLWRjMTY3ZTVjMmI3MyJ9.eyJpc3MiOiJtYWN2ZW5kb3JzIiwiYXVkIjoibWFjdmVuZG9ycyIsImp0aSI6IjNlM2JiMTMzLWVmODItNGU1MC1iNDczLWRjMTY3ZTVjMmI3MyIsImlhdCI6MTc0MTI0MzA0OSwiZXhwIjoyMDU1NzM5MDQ5LCJzdWIiOiIxNTY3OSIsInR5cCI6ImFjY2VzcyJ9.Y8BkLcz4fr1wCcKohdWGSmjoeIoxOo_wktdHO0iwt_pDEKq3VIDlcupeOnRLZnDnxxzt9pEGphIR47SV9S7x7w"
-            }
+        
+        # EXPERIMENT
+        headers = {}
 
         try:
             response = requests.get(url, timeout=2)
